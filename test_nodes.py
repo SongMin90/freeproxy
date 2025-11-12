@@ -132,11 +132,15 @@ def main():
     nodes_url = "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt"
     all_nodes = fetch_unique_nodes(nodes_url, sample_count=50)
     vless_nodes = []
+    trojan_nodes = []
     for node in all_nodes:
         vless = to_vless(node)
         if vless and is_valid_vless_url(vless):
             vless_nodes.append(vless)
+        elif node.startswith("trojan://"):
+            trojan_nodes.append(node)
     logging.info(f"优化为有效vless节点: {len(vless_nodes)} 条")
+    logging.info(f"优化为有效trojan节点: {len(trojan_nodes)} 条")
 
     valid_nodes = []
     connect_results = []
@@ -161,6 +165,8 @@ def main():
         txt = ""
         for vless in valid_nodes:
             txt += vless + "\n"
+        for trojan in trojan_nodes:
+            txt += trojan + "\n"
         fout.write(base64.b64encode(txt.encode('utf-8')).decode('utf-8'))
     logging.info(f"TCP连接成功节点: {len(valid_nodes)} 条，已保存到 results/valid_vless_configs.txt")
 
