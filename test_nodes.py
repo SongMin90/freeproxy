@@ -149,7 +149,7 @@ def main():
             if ok:
                 valid_nodes.append(vless)
 
-    with open("results/ping_test_results.txt", "w") as fout:
+    with open("results/ping_test_results.txt", "w", encoding="utf-8") as fout:
         fout.write(f"TCP Connect Test Results - {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
         fout.write("="*50 + "\n")
         if connect_results:
@@ -157,9 +157,11 @@ def main():
         else:
             fout.write("无可用节点或无可用结果。\n")
 
-    with open("results/valid_vless_configs.txt", "w") as fout:
+    with open("results/valid_vless_configs.txt", "w", encoding="utf-8") as fout:
+        txt = ""
         for vless in valid_nodes:
-            fout.write(vless + "\n")
+            txt += vless + "\n"
+        fout.write(base64.b64encode(txt.encode('utf-8')).decode('utf-8'))
     logging.info(f"TCP连接成功节点: {len(valid_nodes)} 条，已保存到 results/valid_vless_configs.txt")
 
 if __name__ == "__main__":
