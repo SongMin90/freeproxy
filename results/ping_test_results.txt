@@ -1,11 +1,11 @@
-TCP Connect Test Results - 2026-09-30 05:08:42
+TCP Connect Test Results - 2026-10-01 05:23:34
 ==================================================
-Node: vless://964e6322-afad-4594-8508-86d634d732e6@194.36.55.146:80?encryption=none&security=none&type=ws&host=blacklegends.umc-mansur13.workers.dev&path=%2F&sni=194.36.55.146&fp=chrome#%F0%9F%87%AC%F0%9F%87%A7_%E8%8B%B1%E5%9B%BD_294
-Host: 194.36.55.146, Port: 80, Status: OK
+Node: vless://f2381f29-c724-4491-95a3-a17bd6eea47f@46.28.69.53:443?encryption=none&security=reality&type=tcp&sni=de2.willo.help&flow=xtls-rprx-vision&fp=chrome&pbk=MldGYzZegwydL76HI_beMlXgD-4ZyCZjIX0sBVPjphY&sid=abcd1234#%F0%9F%87%A9%F0%9F%87%AA_%E5%BE%B7%E5%9B%BD_14
+Host: 46.28.69.53, Port: 443, Status: FAILED
 TCP log:
-TCP连接成功
+TCP连接失败: [Errno 111] Connection refused
 ========================================
-Node: vless://37665857-8b6e-4daa-8231-3e2927221558@158.247.222.168:443?encryption=none&security=tls&type=ws&host=spjd.cbc.qzz.io&path=%2F&sni=spjd.cbc.qzz.io&fp=chrome#%F0%9F%87%B0%F0%9F%87%B7_%E9%9F%A9%E5%9B%BD_162
+Node: vless://37665857-8b6e-4daa-8231-3e2927221558@158.247.222.168:443?encryption=none&security=tls&type=ws&host=spjd.cbc.qzz.io&path=%2Fproxyip%3DProxyIP.US.CMLiussss.net&sni=spjd.cbc.qzz.io&fp=chrome#%F0%9F%87%B0%F0%9F%87%B7_%E9%9F%A9%E5%9B%BD_105
 Host: 158.247.222.168, Port: 443, Status: OK
 TCP log:
 TCP连接成功
@@ -15,18 +15,8 @@ Host: 104.26.0.138, Port: 443, Status: OK
 TCP log:
 TCP连接成功
 ========================================
-Node: vless://22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2@35.201.181.122:443?encryption=none&security=reality&type=tcp&host=www.cloudflare.com&sni=www.cloudflare.com&fp=chrome&pbk=PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0&sid=32f66f37df3f58d2#%F0%9F%87%B9%F0%9F%87%BC_%E5%8F%B0%E6%B9%BE_19
-Host: 35.201.181.122, Port: 443, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2@35.201.181.122:443?encryption=none&security=reality&type=tcp&host=www.cloudflare.com&sni=www.cloudflare.com&fp=ios&pbk=PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0&sid=32f66f37df3f58d2#%F0%9F%87%B9%F0%9F%87%BC_%E5%8F%B0%E6%B9%BE_21
-Host: 35.201.181.122, Port: 443, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://79f0aac8-656a-435b-b092-c973a3f85e02@batmanali.savfasf.ir:41432?encryption=none&security=none&type=tcp#%E7%94%B5%E6%8A%A5%E7%BE%A4%EF%BC%9Ahttps%3A%2F%2Ft.me%2Fvvkj11
-Host: batmanali.savfasf.ir, Port: 41432, Status: OK
+Node: vless://3977434d-6a9b-4858-8ced-80326ba5e367@103.172.197.2:29172?encryption=none&security=reality&type=tcp&sni=aws.amazon.com&flow=xtls-rprx-vision&fp=chrome&pbk=pff94OJwuKXnF7_3SJ8KKJuAN4GJtInBlR-kg-4mwzQ#%F0%9F%87%AE%F0%9F%87%A9_%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A_10
+Host: 103.172.197.2, Port: 29172, Status: OK
 TCP log:
 TCP连接成功
 ========================================
@@ -40,58 +30,8 @@ Host: 31.76.4.144, Port: 443, Status: OK
 TCP log:
 TCP连接成功
 ========================================
-Node: vless://37665857-8b6e-4daa-8231-3e2927221558@158.247.222.168:443?encryption=none&security=tls&type=ws&host=spjd.cbc.qzz.io&path=%2Fproxyip%3DProxyIP.US.CMLiussss.net&sni=spjd.cbc.qzz.io&fp=chrome#%F0%9F%87%B0%F0%9F%87%B7_%E9%9F%A9%E5%9B%BD_105
-Host: 158.247.222.168, Port: 443, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://bc5ec86c-3e65-4272-994c-59a924c72a68@fbsv6.guardora.pro:443?encryption=none&security=tls&type=ws&host=fbsv6.guardora.pro&path=%2Fws&sni=fbsv6.guardora.pro&alpn=http%2F1.1&fp=random#%F0%9F%87%B7%F0%9F%87%BA_%E4%BF%84%E7%BD%97%E6%96%AF_151
+Node: vless://bc5ec86c-3e65-4272-994c-59a924c72a68@fbsv6.guardora.pro:443?encryption=none&security=tls&type=ws&path=%2Fws&sni=fbsv6.guardora.pro&fp=random#%F0%9F%87%B7%F0%9F%87%BA_%E4%BF%84%E7%BD%97%E6%96%AF_133
 Host: fbsv6.guardora.pro, Port: 443, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://ca608afb-55ff-4f36-9d00-606fedbb30e1@site.check-looks.space:2083?encryption=none&security=tls&type=ws&path=%2F#%F0%9F%8F%B3%EF%B8%8F_%E6%9C%AA%E7%9F%A5_38
-Host: site.check-looks.space, Port: 2083, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://79f0aac8-656a-435b-b092-c973a3f85e02@batmanali.savfasf.ir:41432?encryption=none&security=none&type=tcp&sni=play-apps-features.googleus#%F0%9F%87%A9%F0%9F%87%AA_%E5%BE%B7%E5%9B%BD_7
-Host: batmanali.savfasf.ir, Port: 41432, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://de78ba38-5600-47d1-b93b-b45bdf280ac0@195.123.212.60:15392?encryption=none&security=reality&type=tcp&sni=intel.com&flow=xtls-rprx-vision&fp=firefox&pbk=TgaE-83sqLrJ6auwPP2Nq7vDO_xuFqa6uMnG4Au18jg&sid=82#%E5%85%8D%E8%B4%B9VPN%EF%BC%9Ahttps%3A%2F%2Ftt.vg%2FFJOE2Mm
-Host: 195.123.212.60, Port: 15392, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://448b76ac-c636-4303-bec1-0b2c22afee0c@34.95.28.161:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&fp=chrome&pbk=l4tGdE5Zn8ABfBQns3pRBcxy6CckHTLSIsw5JaBumTk&sid=c9d4bf8d94ec8dab#%F0%9F%87%A8%F0%9F%87%A6_%E5%8A%A0%E6%8B%BF%E5%A4%A7_17
-Host: 34.95.28.161, Port: 443, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://673a0b19-26c2-47bb-91d5-f264983729a9@viaduct.proxy.rlwy.net:41726?encryption=none&security=none&type=ws&path=%2F#%F0%9F%87%BA%F0%9F%87%B8_%E7%BE%8E%E5%9B%BD_122
-Host: viaduct.proxy.rlwy.net, Port: 41726, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://e96896d8-72d1-496f-8d28-b3fa0de4a562@94.237.40.197:443?encryption=none&security=reality&type=tcp&sni=bazitory.com&pbk=RYfzci_ctBzEbBah0jwygnWrGer9_LQfjOgmh9VizQE&sid=f9#%F0%9F%87%B3%F0%9F%87%B1_%E8%8D%B7%E5%85%B0_8
-Host: 94.237.40.197, Port: 443, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://e96896d8-72d1-496f-8d28-b3fa0de4a562@94.237.40.197:443?encryption=none&security=reality&type=tcp&sni=bazitory.com&fp=chrome&pbk=RYfzci_ctBzEbBah0jwygnWrGer9_LQfjOgmh9VizQE&sid=f9#%F0%9F%87%B3%F0%9F%87%B1_%E8%8D%B7%E5%85%B0_16
-Host: 94.237.40.197, Port: 443, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2@35.201.181.122:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&fp=chrome&pbk=PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0&sid=32f66f37df3f58d2#%F0%9F%87%B9%F0%9F%87%BC_%E5%8F%B0%E6%B9%BE_13
-Host: 35.201.181.122, Port: 443, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://3977434d-6a9b-4858-8ced-80326ba5e367@103.172.197.2:29172?encryption=none&security=reality&type=tcp&sni=aws.amazon.com&flow=xtls-rprx-vision&fp=chrome&pbk=pff94OJwuKXnF7_3SJ8KKJuAN4GJtInBlR-kg-4mwzQ#%F0%9F%87%AE%F0%9F%87%A9_%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A_10
-Host: 103.172.197.2, Port: 29172, Status: OK
 TCP log:
 TCP连接成功
 ========================================
@@ -100,23 +40,23 @@ Host: site.check-looks.space, Port: 2083, Status: OK
 TCP log:
 TCP连接成功
 ========================================
-Node: vless://550a69ec-fec1-4eca-b939-4ee076875fa8@113.30.154.65:443?encryption=none&security=reality&type=tcp&sni=sellflow.org&flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%E6%97%A5%E6%9C%9F%EF%BC%9A09-30
-Host: 113.30.154.65, Port: 443, Status: OK
+Node: vless://673a0b19-26c2-47bb-91d5-f264983729a9@viaduct.proxy.rlwy.net:41726?encryption=none&security=none&type=ws&path=%2F#%F0%9F%87%BA%F0%9F%87%B8_%E7%BE%8E%E5%9B%BD_122
+Host: viaduct.proxy.rlwy.net, Port: 41726, Status: OK
 TCP log:
 TCP连接成功
 ========================================
-Node: vless://22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2@35.201.181.122:443?encryption=none&security=reality&type=tcp&host=www.cloudflare.com&sni=www.cloudflare.com&fp=qq&pbk=PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0&sid=32f66f37df3f58d2#%F0%9F%87%B9%F0%9F%87%BC_%E5%8F%B0%E6%B9%BE_20
-Host: 35.201.181.122, Port: 443, Status: OK
+Node: vless://22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2@35.201.181.122:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&fp=chrome&pbk=PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0&sid=32f66f37df3f58d2#%F0%9F%87%B9%F0%9F%87%BC_%E5%8F%B0%E6%B9%BE_13
+Host: 35.201.181.122, Port: 443, Status: FAILED
 TCP log:
-TCP连接成功
+TCP连接失败: timed out
 ========================================
-Node: vless://bc5ec86c-3e65-4272-994c-59a924c72a68@fbsv6.guardora.pro:443?encryption=none&security=tls&type=ws&path=%2Fws&sni=fbsv6.guardora.pro&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA_%E4%BF%84%E7%BD%97%E6%96%AF_132
-Host: fbsv6.guardora.pro, Port: 443, Status: OK
+Node: vless://22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2@35.201.181.122:443?encryption=none&security=reality&type=tcp&host=www.cloudflare.com&sni=www.cloudflare.com&fp=chrome&pbk=PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0&sid=32f66f37df3f58d2#%F0%9F%87%B9%F0%9F%87%BC_%E5%8F%B0%E6%B9%BE_19
+Host: 35.201.181.122, Port: 443, Status: FAILED
 TCP log:
-TCP连接成功
+TCP连接失败: timed out
 ========================================
-Node: vless://bc5ec86c-3e65-4272-994c-59a924c72a68@fbsv6.guardora.pro:443?encryption=none&security=tls&type=ws&path=%2Fws&sni=fbsv6.guardora.pro&fp=random#%F0%9F%87%B7%F0%9F%87%BA_%E4%BF%84%E7%BD%97%E6%96%AF_133
-Host: fbsv6.guardora.pro, Port: 443, Status: OK
+Node: vless://fdc48be3-a615-41ac-8bd1-ed844c931048@45.8.173.250:443?encryption=none&security=tls&type=ws&path=%2F&sni=edgetunnel-4uw.pages.dev&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5_%E6%97%A5%E6%9C%AC_119
+Host: 45.8.173.250, Port: 443, Status: OK
 TCP log:
 TCP连接成功
 ========================================
@@ -125,43 +65,23 @@ Host: 103.31.4.10, Port: 443, Status: OK
 TCP log:
 TCP连接成功
 ========================================
-Node: vless://c8f3f81a-5276-48e9-af6b-c537fb4c7856@104.21.56.90:80?encryption=none&security=none&type=ws&host=r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev&path=%2F&sni=104.21.56.90&fp=chrome#%F0%9F%8F%B3%EF%B8%8F_%E6%9C%AA%E7%9F%A5_135
-Host: 104.21.56.90, Port: 80, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://26beb784-a664-4c3e-becf-0f0c12568b62@172.67.207.26:8880?encryption=none&security=none&type=ws&host=twilight-poetry-2bfe.218-699.workers.dev&path=%2F&sni=172.67.207.26&fp=chrome#%F0%9F%8F%B3%EF%B8%8F_%E6%9C%AA%E7%9F%A5_137
-Host: 172.67.207.26, Port: 8880, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://fdc48be3-a615-41ac-8bd1-ed844c931048@45.8.173.250:443?encryption=none&security=tls&type=ws&path=%2F&sni=edgetunnel-4uw.pages.dev&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5_%E6%97%A5%E6%9C%AC_119
-Host: 45.8.173.250, Port: 443, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://79f0aac8-656a-435b-b092-c973a3f85e02@batmanali.savfasf.ir:41432?encryption=none&security=none&type=tcp&host=play-apps-features.googleus#%F0%9F%87%A9%F0%9F%87%AA_%E5%BE%B7%E5%9B%BD_6
-Host: batmanali.savfasf.ir, Port: 41432, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://f2381f29-c724-4491-95a3-a17bd6eea47f@46.28.69.53:443?encryption=none&security=reality&type=tcp&sni=de2.willo.help&flow=xtls-rprx-vision&fp=chrome&pbk=MldGYzZegwydL76HI_beMlXgD-4ZyCZjIX0sBVPjphY&sid=abcd1234#%F0%9F%87%A9%F0%9F%87%AA_%E5%BE%B7%E5%9B%BD_14
-Host: 46.28.69.53, Port: 443, Status: FAILED
-TCP log:
-TCP连接失败: [Errno 111] Connection refused
-========================================
-Node: vless://3977434d-6a9b-4858-8ced-80326ba5e367@103.172.197.2:29172?encryption=none&security=reality&type=tcp&host=aws.amazon.com&sni=aws.amazon.com&flow=xtls-rprx-vision&fp=chrome&pbk=pff94OJwuKXnF7_3SJ8KKJuAN4GJtInBlR-kg-4mwzQ#%F0%9F%87%AE%F0%9F%87%A9_%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A_9
-Host: 103.172.197.2, Port: 29172, Status: OK
-TCP log:
-TCP连接成功
-========================================
-Node: vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@norw-mori-4.failspace.top:443?encryption=none&security=tls&type=tcp&flow=xtls-rprx-vision#%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%EF%BC%8C%E8%AF%B7%E5%8A%A0%E7%94%B5%E6%8A%A5%E7%BE%A4%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94
-Host: norw-mori-4.failspace.top, Port: 443, Status: OK
-TCP log:
-TCP连接成功
-========================================
 Node: vless://22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2@35.201.181.122:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&fp=safari&pbk=PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0&sid=32f66f37df3f58d2#%F0%9F%87%B9%F0%9F%87%BC_%E5%8F%B0%E6%B9%BE_18
-Host: 35.201.181.122, Port: 443, Status: OK
+Host: 35.201.181.122, Port: 443, Status: FAILED
+TCP log:
+TCP连接失败: timed out
+========================================
+Node: vless://de78ba38-5600-47d1-b93b-b45bdf280ac0@195.123.212.60:15392?encryption=none&security=reality&type=tcp&sni=intel.com&flow=xtls-rprx-vision&fp=firefox&pbk=TgaE-83sqLrJ6auwPP2Nq7vDO_xuFqa6uMnG4Au18jg&sid=82#%E5%85%8D%E8%B4%B9VPN%EF%BC%9Ahttps%3A%2F%2Ftt.vg%2FFJOE2Mm
+Host: 195.123.212.60, Port: 15392, Status: OK
+TCP log:
+TCP连接成功
+========================================
+Node: vless://22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2@35.201.181.122:443?encryption=none&security=reality&type=tcp&host=www.cloudflare.com&sni=www.cloudflare.com&fp=ios&pbk=PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0&sid=32f66f37df3f58d2#%F0%9F%87%B9%F0%9F%87%BC_%E5%8F%B0%E6%B9%BE_21
+Host: 35.201.181.122, Port: 443, Status: FAILED
+TCP log:
+TCP连接失败: timed out
+========================================
+Node: vless://bc5ec86c-3e65-4272-994c-59a924c72a68@fbsv6.guardora.pro:443?encryption=none&security=tls&type=ws&path=%2Fws&sni=fbsv6.guardora.pro&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA_%E4%BF%84%E7%BD%97%E6%96%AF_132
+Host: fbsv6.guardora.pro, Port: 443, Status: OK
 TCP log:
 TCP连接成功
 ========================================
@@ -170,13 +90,73 @@ Host: 80.93.202.40, Port: 8880, Status: OK
 TCP log:
 TCP连接成功
 ========================================
+Node: vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@norw-mori-4.failspace.top:443?encryption=none&security=tls&type=tcp&flow=xtls-rprx-vision#%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%EF%BC%8C%E8%AF%B7%E5%8A%A0%E7%94%B5%E6%8A%A5%E7%BE%A4%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94
+Host: norw-mori-4.failspace.top, Port: 443, Status: OK
+TCP log:
+TCP连接成功
+========================================
+Node: vless://c8f3f81a-5276-48e9-af6b-c537fb4c7856@104.21.56.90:80?encryption=none&security=none&type=ws&host=r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev&path=%2F&sni=104.21.56.90&fp=chrome#%F0%9F%8F%B3%EF%B8%8F_%E6%9C%AA%E7%9F%A5_135
+Host: 104.21.56.90, Port: 80, Status: OK
+TCP log:
+TCP连接成功
+========================================
+Node: vless://964e6322-afad-4594-8508-86d634d732e6@194.36.55.146:80?encryption=none&security=none&type=ws&host=blacklegends.umc-mansur13.workers.dev&path=%2F&sni=194.36.55.146&fp=chrome#%F0%9F%87%AC%F0%9F%87%A7_%E8%8B%B1%E5%9B%BD_294
+Host: 194.36.55.146, Port: 80, Status: OK
+TCP log:
+TCP连接成功
+========================================
+Node: vless://22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2@35.201.181.122:443?encryption=none&security=reality&type=tcp&host=www.cloudflare.com&sni=www.cloudflare.com&fp=qq&pbk=PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0&sid=32f66f37df3f58d2#%F0%9F%87%B9%F0%9F%87%BC_%E5%8F%B0%E6%B9%BE_20
+Host: 35.201.181.122, Port: 443, Status: FAILED
+TCP log:
+TCP连接失败: timed out
+========================================
+Node: vless://37665857-8b6e-4daa-8231-3e2927221558@158.247.222.168:443?encryption=none&security=tls&type=ws&host=spjd.cbc.qzz.io&path=%2F&sni=spjd.cbc.qzz.io&fp=chrome#%F0%9F%87%B0%F0%9F%87%B7_%E9%9F%A9%E5%9B%BD_162
+Host: 158.247.222.168, Port: 443, Status: OK
+TCP log:
+TCP连接成功
+========================================
+Node: vless://3977434d-6a9b-4858-8ced-80326ba5e367@103.172.197.2:29172?encryption=none&security=reality&type=tcp&host=aws.amazon.com&sni=aws.amazon.com&flow=xtls-rprx-vision&fp=chrome&pbk=pff94OJwuKXnF7_3SJ8KKJuAN4GJtInBlR-kg-4mwzQ#%F0%9F%87%AE%F0%9F%87%A9_%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A_9
+Host: 103.172.197.2, Port: 29172, Status: OK
+TCP log:
+TCP连接成功
+========================================
+Node: vless://79f0aac8-656a-435b-b092-c973a3f85e02@batmanali.savfasf.ir:41432?encryption=none&security=none&type=tcp&host=play-apps-features.googleus#%F0%9F%87%A9%F0%9F%87%AA_%E5%BE%B7%E5%9B%BD_6
+Host: batmanali.savfasf.ir, Port: 41432, Status: OK
+TCP log:
+TCP连接成功
+========================================
+Node: vless://79f0aac8-656a-435b-b092-c973a3f85e02@batmanali.savfasf.ir:41432?encryption=none&security=none&type=tcp&sni=play-apps-features.googleus#%F0%9F%87%A9%F0%9F%87%AA_%E5%BE%B7%E5%9B%BD_7
+Host: batmanali.savfasf.ir, Port: 41432, Status: OK
+TCP log:
+TCP连接成功
+========================================
 Node: vless://d72f05b0-b182-4783-a6f2-21cecc7d841a@31.76.101.39:443?encryption=none&security=reality&type=tcp&sni=dzen.ru&flow=xtls-rprx-vision&fp=chrome&pbk=SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js&sid=a1b2c3d4e5f67890#%F0%9F%87%BA%F0%9F%87%B8_%E7%BE%8E%E5%9B%BD_12
 Host: 31.76.101.39, Port: 443, Status: OK
 TCP log:
 TCP连接成功
 ========================================
+Node: vless://448b76ac-c636-4303-bec1-0b2c22afee0c@34.95.28.161:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&fp=chrome&pbk=l4tGdE5Zn8ABfBQns3pRBcxy6CckHTLSIsw5JaBumTk&sid=c9d4bf8d94ec8dab#%F0%9F%87%A8%F0%9F%87%A6_%E5%8A%A0%E6%8B%BF%E5%A4%A7_17
+Host: 34.95.28.161, Port: 443, Status: FAILED
+TCP log:
+TCP连接失败: timed out
+========================================
 Node: vless://2412bd96-925b-43f2-81d1-0ed4f0793699@103.27.157.120:443?encryption=none&security=reality&type=tcp&host=download.amd.com&sni=download.amd.com&flow=xtls-rprx-vision&fp=firefox&pbk=k0883nIGfstbzb8hES-dQ1yPcBwbUbnsyg4w-UA5gkA&sid=68aaa5222092bbea#%F0%9F%87%A9%F0%9F%87%AA_%E5%BE%B7%E5%9B%BD_11
 Host: 103.27.157.120, Port: 443, Status: OK
+TCP log:
+TCP连接成功
+========================================
+Node: vless://ca608afb-55ff-4f36-9d00-606fedbb30e1@site.check-looks.space:2083?encryption=none&security=tls&type=ws&path=%2F#%F0%9F%8F%B3%EF%B8%8F_%E6%9C%AA%E7%9F%A5_38
+Host: site.check-looks.space, Port: 2083, Status: OK
+TCP log:
+TCP连接成功
+========================================
+Node: vless://550a69ec-fec1-4eca-b939-4ee076875fa8@113.30.154.65:443?encryption=none&security=reality&type=tcp&sni=sellflow.org&flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%E6%97%A5%E6%9C%9F%EF%BC%9A09-30
+Host: 113.30.154.65, Port: 443, Status: FAILED
+TCP log:
+TCP连接失败: timed out
+========================================
+Node: vless://26beb784-a664-4c3e-becf-0f0c12568b62@172.67.207.26:8880?encryption=none&security=none&type=ws&host=twilight-poetry-2bfe.218-699.workers.dev&path=%2F&sni=172.67.207.26&fp=chrome#%F0%9F%8F%B3%EF%B8%8F_%E6%9C%AA%E7%9F%A5_137
+Host: 172.67.207.26, Port: 8880, Status: OK
 TCP log:
 TCP连接成功
 ========================================
@@ -184,6 +164,21 @@ Node: vless://441afe11-a180-4516-bb80-80a8a6b38705@193.163.203.253:443?encryptio
 Host: 193.163.203.253, Port: 443, Status: OK
 TCP log:
 TCP连接成功
+========================================
+Node: vless://e96896d8-72d1-496f-8d28-b3fa0de4a562@94.237.40.197:443?encryption=none&security=reality&type=tcp&sni=bazitory.com&fp=chrome&pbk=RYfzci_ctBzEbBah0jwygnWrGer9_LQfjOgmh9VizQE&sid=f9#%F0%9F%87%B3%F0%9F%87%B1_%E8%8D%B7%E5%85%B0_16
+Host: 94.237.40.197, Port: 443, Status: FAILED
+TCP log:
+TCP连接失败: timed out
+========================================
+Node: vless://79f0aac8-656a-435b-b092-c973a3f85e02@batmanali.savfasf.ir:41432?encryption=none&security=none&type=tcp#%E7%94%B5%E6%8A%A5%E7%BE%A4%EF%BC%9Ahttps%3A%2F%2Ft.me%2Fvvkj11
+Host: batmanali.savfasf.ir, Port: 41432, Status: OK
+TCP log:
+TCP连接成功
+========================================
+Node: vless://e96896d8-72d1-496f-8d28-b3fa0de4a562@94.237.40.197:443?encryption=none&security=reality&type=tcp&sni=bazitory.com&pbk=RYfzci_ctBzEbBah0jwygnWrGer9_LQfjOgmh9VizQE&sid=f9#%F0%9F%87%B3%F0%9F%87%B1_%E8%8D%B7%E5%85%B0_8
+Host: 94.237.40.197, Port: 443, Status: FAILED
+TCP log:
+TCP连接失败: timed out
 ========================================
 Node: vless://37665857-8b6e-4daa-8231-3e2927221558@103.143.81.178:443?encryption=none&security=tls&type=ws&host=spjd.cbc.qzz.io&path=%2Fproxyip%3DProxyIP.US.CMLiussss.net&sni=spjd.cbc.qzz.io&fp=chrome#%F0%9F%87%AD%F0%9F%87%B0_%E9%A6%99%E6%B8%AF_94
 Host: 103.143.81.178, Port: 443, Status: OK
@@ -194,4 +189,9 @@ Node: vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@129.211.188.184:8443?encrypti
 Host: 129.211.188.184, Port: 8443, Status: FAILED
 TCP log:
 TCP连接失败: timed out
+========================================
+Node: vless://bc5ec86c-3e65-4272-994c-59a924c72a68@fbsv6.guardora.pro:443?encryption=none&security=tls&type=ws&host=fbsv6.guardora.pro&path=%2Fws&sni=fbsv6.guardora.pro&alpn=http%2F1.1&fp=random#%F0%9F%87%B7%F0%9F%87%BA_%E4%BF%84%E7%BD%97%E6%96%AF_151
+Host: fbsv6.guardora.pro, Port: 443, Status: OK
+TCP log:
+TCP连接成功
 ========================================
